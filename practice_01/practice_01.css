@@ -36,6 +36,7 @@ header{
 }
 
 .index-content{
+  text-align: center;
 }
 
 /*portfolio*/
@@ -56,11 +57,10 @@ ul{
 
 li{
   list-style: none;
-  width: 50%;
 }
 
 .portfolio-img-content{
-  width: 100%;
+  width: 480px;
   height: 600px;
   margin: 10px 10px;
 }
@@ -68,13 +68,42 @@ li{
 /*detail*/
 #detail{
   background-color: #EEEEEE;
-  width: 90%;
-  padding: 10px 10px;
+  width: 900px;
+  padding: 15px 10px;
   margin: 0 auto;
+  text-align: 0 auto;
+}
+
+.detail-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-content-title{
+  text-align: center;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.detail-content-left{
+  width: 35%;
+  padding-left: 30px;
+  line-height: 160%;
+}
+
+span{
+  font-weight: bold;
+}
+
+.detail-content-right{
+  width: 55%;
+  padding-left: 30px;
+  border-left: solid 2px;
+  line-height: 160%;
 }
 
 /*footer*/
 footer{
   text-align: center;
-  margin:10px;
+  margin:15px;
 }
