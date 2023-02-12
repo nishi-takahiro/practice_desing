@@ -35,8 +35,21 @@ header{
   margin: 25px auto;
 }
 
-.index-content{
+.index-title{
   text-align: center;
+}
+
+.index-text{
+  border: solid 1px;
+}
+
+.ol{
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+.ol::maker{
+  
 }
 
 /*portfolio*/
@@ -53,11 +66,9 @@ header{
 ul{
   display: flex;
   flex-wrap: wrap;
-}
-
-li{
   list-style: none;
 }
+
 
 .portfolio-img-content{
   width: 480px;
