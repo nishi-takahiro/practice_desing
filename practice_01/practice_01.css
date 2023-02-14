@@ -19,11 +19,17 @@ header{
   margin-left: 20px
 }
 
+.main-visual-conten{
+  display: block;
+  margin: auto;
+}
+
 .main-visual{
   width: 100%;
   height: 600px;
   background-image: url(img/mainvisual.jpg);
   background-size: cover;
+  display: block;
   margin: 0 auto;
 }
 
@@ -43,8 +49,13 @@ ol{
   list-style-position: inside;
 }
 
+a{
+  text-decoration: none;
+}
+
 .index-text{
   border: solid 1px;
+  padding: 10px 15px;
 }
 
 .ol{
@@ -64,7 +75,7 @@ ol{
 .portfolio-img{
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 ul{
@@ -121,4 +132,39 @@ span{
 footer{
   text-align: center;
   margin:15px;
+}
+
+@media screen and (max-width: 767px){
+  
+ .main-visual{
+   height: 450px;
+ }
+ 
+ .portfolio-img{
+   display: block;
+   margin: 0 auto;
+ }
+ 
+ li{
+   display: block;
+   margin: 0 auto;
+ }
+ 
+ #detail{
+   display: block;
+   width: 90%;
+   line-height: 50px;
+ }
+ 
+ .detail-content-left{
+   width: 100%;
+   line-height: 30px;
+ }
+ 
+ .detail-content-right{
+   width: 100%;
+   border-left: none;
+   border-top: solid 1px;
+   line-height: 30px;
+ }
 }
